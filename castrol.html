@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Castrol Lubricants - Product Showcase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: #f7f8fa;
+            color: #222;
+        }
+        .header {
+            background: #006847;
+            color: #fff;
+            padding: 2rem 0 1.2rem 0;
+            text-align: center;
+        }
+        .company-logo {
+            width: 80px;
+            background: #fff;
+            border-radius: 12px;
+            padding: 10px;
+            margin-bottom: 1rem;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #e41e26;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .product-card {
+            border-radius: 15px;
+            box-shadow: 0 2px 12px rgba(24,90,157,0.09);
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .product-img {
+            width: 220px;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .product-title {
+            color: #006847;
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .spec-list {
+            text-align: left;
+            margin: 0 auto 1rem auto;
+            max-width: 260px;
+        }
+        .spec-list li {
+            margin-bottom: 0.5rem;
+        }
+        .btn-back {
+            margin-top: 2rem;
+            display: block;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 767px) {
+            .header {
+                padding: 1.2rem 0 0.6rem 0;
+            }
+            .product-img {
+                width: 120px;
+            }
+            .product-card {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="download.png" alt="Castrol Logo" class="company-logo">
+        <h1>Castrol Lubricants</h1>
+        <p>High-Performance Lubricants for Engines & Machinery</p>
+    </div>
+    <div class="container">
+        <div class="section-title">Featured Castrol Lubricants</div>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-magnatec.jpg" alt="Castrol Magnatec" class="product-img">
+                    <div class="product-title">Castrol Magnatec</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Synthetic</li>
+                        <li><strong>Viscosity:</strong> 5W-40</li>
+                        <li><strong>Pack Size:</strong> 4L</li>
+                        <li><strong>Application:</strong> Passenger Cars</li>
+                        <li><strong>Price:</strong> ₹2,200</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-gtx.jpg" alt="Castrol GTX" class="product-img">
+                    <div class="product-title">Castrol GTX</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Mineral</li>
+                        <li><strong>Viscosity:</strong> 15W-40</li>
+                        <li><strong>Pack Size:</strong> 5L</li>
+                        <li><strong>Application:</strong> Commercial Vehicles</li>
+                        <li><strong>Price:</strong> ₹1,850</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-power1.jpg" alt="Castrol Power 1" class="product-img">
+                    <div class="product-title">Castrol Power 1</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Semi-Synthetic</li>
+                        <li><strong>Viscosity:</strong> 10W-40</li>
+                        <li><strong>Pack Size:</strong> 1L</li>
+                        <li><strong>Application:</strong> Motorcycles</li>
+                        <li><strong>Price:</strong> ₹420</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-transmax.jpg" alt="Castrol Transmax" class="product-img">
+                    <div class="product-title">Castrol Transmax ATF</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> ATF</li>
+                        <li><strong>Pack Size:</strong> 1L</li>
+                        <li><strong>Application:</strong> Automatic Transmission</li>
+                        <li><strong>Price:</strong> ₹600</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-axle.jpg" alt="Castrol Axle" class="product-img">
+                    <div class="product-title">Castrol Axle Gear Oil</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Gear Oil</li>
+                        <li><strong>Viscosity:</strong> 80W-90</li>
+                        <li><strong>Pack Size:</strong> 1L</li>
+                        <li><strong>Application:</strong> Axle & Gearboxes</li>
+                        <li><strong>Price:</strong> ₹350</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <img src="castrol-activ.jpg" alt="Castrol Activ" class="product-img">
+                    <div class="product-title">Castrol Activ 4T</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> 4-Stroke Engine Oil</li>
+                        <li><strong>Viscosity:</strong> 20W-40</li>
+                        <li><strong>Pack Size:</strong> 1L</li>
+                        <li><strong>Application:</strong> Motorcycles</li>
+                        <li><strong>Price:</strong> ₹310</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="product-card">
+                    <img src="castrol-coolant.jpg" alt="Castrol Coolant" class="product-img">
+                    <div class="product-title">Castrol Coolant</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Radiator Coolant</li>
+                        <li><strong>Pack Size:</strong> 1L</li>
+                        <li><strong>Application:</strong> Car Radiators</li>
+                        <li><strong>Price:</strong> ₹280</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="product-card">
+                    <img src="castrol-hyspin.jpg" alt="Castrol Hyspin Hydraulic Oil" class="product-img">
+                    <div class="product-title">Castrol Hyspin Hydraulic Oil</div>
+                    <ul class="spec-list">
+                        <li><strong>Type:</strong> Hydraulic Oil</li>
+                        <li><strong>Viscosity:</strong> 68</li>
+                        <li><strong>Pack Size:</strong> 20L</li>
+                        <li><strong>Application:</strong> Industrial Machines</li>
+                        <li><strong>Price:</strong> ₹3,500</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:history.back()" class="btn btn-dark btn-back">Go Back</a>
+    </div>
+    <footer class="text-center py-3 mt-4" style="background:#222;color:#fff;">
+        &copy; 2025 Jay Petroleum Store. All rights reserved.
+    </footer>
+</body>
+</html>
