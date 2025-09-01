@@ -192,7 +192,7 @@
             <div class="col-4 col-md-2 mb-3">
                
                <div class="col-4 col-md-2 mb-3">
-                <img src="download (1).png "class="brand-img" alt="Livfast">
+                <img src="C:\Users\DELL\OneDrive\Desktop\jaypetrolum\livfast.png"class="brand-img" alt="Livfast">
                 <div class="mt-2 fw-semibold text-secondary">Livfast</div>
             </div>
         </div>
