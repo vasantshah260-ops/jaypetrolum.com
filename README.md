@@ -190,7 +190,7 @@
                 <div class="mt-2 fw-semibold text-secondary">Servo</div>
             </div>
             <div class="col-4 col-md-2 mb-3">
-                <img src="download (1).png "class="brand-img" alt="Livfast">
+                <img src="download (1).png"class="brand-img" alt="Livfast">
                 <div class="mt-2 fw-semibold text-secondary">Livfast</div>
             </div>
         </div>
